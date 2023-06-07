@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header1{
+    display: flex;
+    width: 100%;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: wrap;
+    padding: .8rem;
+    background-color: #202122;
+    min-height: 30px;
+    width: 80%;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+.nav-links{
+    text-decoration: none;
+    color: white
+}
+.nav-links:hover{
+    color: rgba(255, 255, 255, 0.568);
+    transition: .4s;
+    text-decoration: underline;
+
+}
+
+#carouselExampleIndicators{
+    width: 500px;
+    height: 300px;
+}
