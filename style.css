@@ -35,10 +35,4 @@ nav{
     color: rgba(255, 255, 255, 0.568);
     transition: .4s;
     text-decoration: underline;
-
-}
-
-#carouselExampleIndicators{
-    width: 500px;
-    height: 300px;
 }
