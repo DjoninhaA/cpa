@@ -43,12 +43,28 @@ nav{
    margin-right: auto;
    background-color: #243746;
    height: 5px;
+   
 }
 
 .tituloTexto {
     text-align: center;
+
 }
 
 .participantes {
     display: flex;
+}
+.texto-noticias { /* alinhar o texto no centro*/
+    text-align: center;
+}
+
+#card-membros {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    display: flex;
+}
+.card-body {
+    text-align: center;
 }
