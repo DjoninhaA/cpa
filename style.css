@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lato';
 }
 .header1{
     display: flex;
@@ -37,16 +38,55 @@ nav{
     transition: .4s;
     text-decoration: underline;
 }
-.Colunm-2 {
-    display: flex;
-    align-items: center;
+
+.news{
+  justify-content: center;
 }
+
+.noticias-img{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.noticias-img img{
+    width: 40vw;
+    height: auto;
+}
+
+.texto-img{
+  padding-left: 2.5vw;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.texto-noticias h1{
+  color: #243746;
+  font-size: 4em;
+  text-align: left;
+  padding-bottom: 2.3vh;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.data-noticias{
+  display: flex;
+  justify-content: end;
+  color: rgb(165, 2, 37);
+  font-weight: 400;
+}
+
 .linha {
    width: 30%;
    margin-left: auto;
    margin-right: auto;
-   background-color: #006fbf;
-   height: 5px;
+   background-color: #243746;
+   height: 1  vh;
    
 }
 
@@ -65,122 +105,64 @@ nav{
     font-size: 15px;
     margin-right: 35px;
 }
-.participantes {
+.news {
     display: flex;
 }
-.texto-noticias { /* alinhar o texto no centro*/
-    text-align: center;
+.container-membros{
+    background-color: #243746;
+    color: white;
+    height: 150vh;
+    margin: 0.7em;
+    border-radius: 5px;
 }
-
 #card-membros {
     display: flex;
     justify-content: space-around;
-    background-color: #243746;
+    flex-wrap:wrap;
+
 }
+
 .card {
-    display: flex;
+    transition: transform .2s;
+    margin: 10px;
+}
+.card:hover{
+    transform: scale(1.15);
+    border: solid 2px #006fbf;
 }
 .card-body {
     text-align: center;
 }
+
 .container-sobre {
-    padding: 2em;
-    background-color: #243746;
-    color: white;
-    font-family: 'Lato';
-    font-size: 25px;
-    height: 500px;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  margin-top: 0.2em;
+  padding: 2em;
+  background-color: #243746;
+  color: white;
+  font-size: 1.4em;
+  height: 80vh;
+  border-radius: 5px;
 }
+
 .container-legislacao {
     padding: 2em;
     font-family: 'Lato';
     font-size: 25px;
-    height: 500px;
+    height: 80vh;
 }
+
+.container-documentos{
+    padding: 2em;
+    margin-bottom: 5em;
+    font-family: 'Lato';
+    font-size: 25px;
+    height: 00px;
+}
+
 .paragrafo {
-    margin-top: 100px;
+    margin-top: 5vh;
+    display: flex;  
+    font-size: 1.4rem;
 }
-
-
-/*footer*/
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffffff;
-  }
-  a {
-    transition: .3s;
-  }
-  
-  .footer {
-    position: relative;
-    padding-top: 45px;
-    background: #243746;
-  }
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffffff;
-  }
-  a {
-    transition: .3s;
-  }
-  a:hover,
-  a:active,
-  a:focus {
-    outline: none;
-    text-decoration: none;
-  }
-  .footer {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    padding-top: 45px;
-    background: #243746;
-  }
-
-
-  .footer .footer-insta a img {
-    width: 100%;
-  }
- 
-  
-
-  .footer .footer-contact {
-    position: relative;
-    padding: 25px 0;
-    text-align: center;
-    
-  }
-  .footer .footer-contact h4 {
-    position: relative;
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #ffffff;
-  }
-  #Img{ 
-    margin-left: 70px;
- }
-  
-  .footer .footer-contact a {
-    display: inline-block;
-  }
-  .footer .footer-contact a i {
-    margin-right: 10px;
-    font-size: 18px;
-    color: #ffffff;
-  }
- 
-  .footer .footer-contact a:hover i {
-    color: #1b84d4;
-  }
-  @media (max-width: 767.98px) {
-    .footer-contact #Img {
-      margin-bottom: 25px;
-    }
-    .footer .footer-contact  #Img{
-      margin: 0;
-    }
-  }
