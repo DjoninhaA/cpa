@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@ header{
     padding: .8rem;
     background-color: #202122;
     min-height: 30px;
-    width: 80%;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -36,12 +37,15 @@ nav{
     transition: .4s;
     text-decoration: underline;
 }
-
+.Colunm-2 {
+    display: flex;
+    align-items: center;
+}
 .linha {
    width: 30%;
    margin-left: auto;
    margin-right: auto;
-   background-color: #243746;
+   background-color: #006fbf;
    height: 5px;
    
 }
@@ -50,7 +54,17 @@ nav{
     text-align: center;
 
 }
-
+.mais{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-color: #006fbf;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 35px;
+}
 .participantes {
     display: flex;
 }
@@ -61,6 +75,7 @@ nav{
 #card-membros {
     display: flex;
     justify-content: space-around;
+    background-color: #243746;
 }
 .card {
     display: flex;
@@ -68,3 +83,104 @@ nav{
 .card-body {
     text-align: center;
 }
+.container-sobre {
+    padding: 2em;
+    background-color: #243746;
+    color: white;
+    font-family: 'Lato';
+    font-size: 25px;
+    height: 500px;
+}
+.container-legislacao {
+    padding: 2em;
+    font-family: 'Lato';
+    font-size: 25px;
+    height: 500px;
+}
+.paragrafo {
+    margin-top: 100px;
+}
+
+
+/*footer*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+  }
+  a {
+    transition: .3s;
+  }
+  
+  .footer {
+    position: relative;
+    padding-top: 45px;
+    background: #243746;
+  }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+  }
+  a {
+    transition: .3s;
+  }
+  a:hover,
+  a:active,
+  a:focus {
+    outline: none;
+    text-decoration: none;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 45px;
+    background: #243746;
+  }
+
+
+  .footer .footer-insta a img {
+    width: 100%;
+  }
+ 
+  
+
+  .footer .footer-contact {
+    position: relative;
+    padding: 25px 0;
+    text-align: center;
+    
+  }
+  .footer .footer-contact h4 {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+  #Img{ 
+    margin-left: 70px;
+ }
+  
+  .footer .footer-contact a {
+    display: inline-block;
+  }
+  .footer .footer-contact a i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+ 
+  .footer .footer-contact a:hover i {
+    color: #1b84d4;
+  }
+  @media (max-width: 767.98px) {
+    .footer-contact #Img {
+      margin-bottom: 25px;
+    }
+    .footer .footer-contact  #Img{
+      margin: 0;
+    }
+  }
